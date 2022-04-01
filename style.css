@@ -1,7 +1,7 @@
 body {
     font-family: 'Dosis', sans-serif;
     background-color: rgba(37, 38, 39, 1);
-    
+    text-align: center;
 }
 .title{
     color: rgba(187, 10, 33, 1);
@@ -14,7 +14,20 @@ h1{
 a {
     text-decoration: none;
     color: rgba(255, 249, 251, 1);
+
 } 
 .text {
-    color: rgba(255, 249, 251, 1);;
-}asdad
+    color: rgba(255, 249, 251, 1);
+    list-style-position: inside; 
+   
+    
+}
+strong{
+    color: rgba(75, 136, 162, 1);
+}
+.button{
+    padding: 15px 20px;
+    background-color: rgba(75, 136, 162, 1);
+    margin: 10px;
+}
+

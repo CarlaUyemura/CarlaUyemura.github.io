@@ -11,7 +11,10 @@ h1{
     color: rgba(187, 10, 33, 1);
     text-align: center;
     margin-bottom: 50px;
-    margin-top: 30px;
+    border-bottom: 6px groove rgba(75, 136, 162, 1);
+    border-top: 6px groove rgba(75, 136, 162, 1);
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 a {
     text-decoration: none;
@@ -33,6 +36,7 @@ strong{
     margin: 10px;
     border-radius: 10px;
     display: inline-block;
+        
 }
 
 #foto{
@@ -63,11 +67,11 @@ strong{
      
 }
 .info{
+    border-top: 6px groove rgba(75, 136, 162, 1);
+    border-bottom: 6px groove rgba(75, 136, 162, 1);
+    padding-bottom: 40px;
+    padding-top: 40px;
     display: block;
-    margin: 5em 0;
+    margin: 4em 0;
     position: sticky;
-}
-div{
-   
-   border: 2px solid red;
 }

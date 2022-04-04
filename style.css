@@ -1,7 +1,6 @@
 body {
     font-family: 'Dosis', sans-serif;
     background-color: rgba(37, 38, 39, 1);
-    text-align: center;
 }
 .title{
     color: rgba(187, 10, 33, 1);
@@ -10,6 +9,9 @@ body {
 h1{
     font-size: 36px;
     color: rgba(187, 10, 33, 1);
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
 }
 a {
     text-decoration: none;
@@ -29,5 +31,43 @@ strong{
     padding: 15px 20px;
     background-color: rgba(75, 136, 162, 1);
     margin: 10px;
+    border-radius: 10px;
+    display: inline-block;
 }
 
+#foto{
+    width: 300px;
+    border-radius: 25%;
+    border: 10px groove rgba(75, 136, 162, 1);
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: block;
+}
+.img-container{
+    height: 80%;
+}
+#sobreMim{
+    display: inline-block;
+    margin-left: 5%;
+    
+    font-size: 30px;
+}
+.text-1 {
+    display: inline-block;
+    margin-left: 5%;
+    color: rgba(255, 249, 251, 1);
+    width: 65%;
+    font-size: 20px;
+    position: sticky;
+     
+}
+.info{
+    display: block;
+    margin: 5em 0;
+    position: sticky;
+}
+div{
+   
+   border: 2px solid red;
+}
